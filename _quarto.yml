@@ -1,0 +1,36 @@
+lang: en
+license: "CC BY"
+project:
+  type: book
+  preview:
+    port: 7206
+    browser: false
+jupyter: python3
+execute:
+  enabled: false
+comments:
+  hypothesis: true
+
+book:
+  title: "IPCC Revisited"
+  author: "#semanticClimate"
+  date: 10.27.2022
+  chapters:
+    - index.qmd
+    - part: course/index.qmd
+      chapters:
+        - course/installation.ipynb
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    html-math-method: mathjax
+    theme: light
+    fontsize: 1.1em
+    linestretch: 1.7
+    link-external-icon: true
+    link-external-newwindow: true
+  pdf:
+    documentclass: scrreprt

@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IPCC Revisited",
+    "section": "",
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "course/installation.html",
+    "href": "course/installation.html",
+    "title": "1  Installations",
+    "section": "",
+    "text": "To install packages run the cell below… This may take 4 min or so\n\n# Installing the tools\n\n#!rm -rf semanticClimate\n\n!git clone  https://github.com/petermr/semanticClimate.git\n!pip install -r semanticClimate/keyword_extraction/code/requirement.txt\n!pip install docanalysis\n!pip install py4ami==0.0.35\n!python -m spacy download en_core_web_lg\n!pip install nltk\nimport nltk\nnltk.download('stopwords')\n\nPlease don’t forget to restart runtime after running the previous cell, else the newly installed packages won’t run properly\nAlso, Once the cell finishes running you can see a green tick along with the number in place of square bracket stating the order in which cells are run and giving information on successful completion of the job."
+  },
+  {
+    "objectID": "course/index.html",
+    "href": "course/index.html",
+    "title": "Preparation",
+    "section": "",
+    "text": "Velit deserunt aute enim duis fugiat occaecat qui proident. Ad labore laborum proident mollit occaecat in. Nisi ea ipsum esse qui dolore exercitation duis eu enim ex sit labore. Excepteur adipisicing sint labore enim ea sint. Mollit eiusmod officia sit quis quis veniam officia velit ipsum ipsum enim."
+  },
+  {
+    "objectID": "course/installation.html#install-packages",
+    "href": "course/installation.html#install-packages",
+    "title": "1  Installations",
+    "section": "1.1 Install packages",
+    "text": "1.1 Install packages\n To install packages run the cell below… This may take 4 min or so\n\n#installing the tools\n#!rm -rf semanticClimate\n#!git clone  https://github.com/petermr/semanticClimate.git\n!pip install -r semanticClimate/keyword_extraction/code/requirement.txt\n!pip install docanalysis\n!pip install py4ami==0.0.35\n!python -m spacy download en_core_web_lg\n\n\n!pip install nltk\nimport nltk\nnltk.download('stopwords')\n\nPlease don’t forget to restart runtime after running the previous cell, else the newly installed packages won’t run properly\nAlso, Once the cell finishes running you can see a green tick along with the number in place of square bracket stating the order in which cells are run and giving information on successful completion of the job."
+  }
+]

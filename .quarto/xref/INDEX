@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "1cc42b4b"
+  },
+  "intro.qmd": {
+    "intro.html": "e6c22ae6"
+  },
+  "summary.qmd": {
+    "summary.html": "9b9754b6"
+  },
+  "references.qmd": {
+    "references.html": "31d9c9a0"
+  },
+  "climate_hackathon_chapter02.ipynb": {
+    "climate_hackathon_chapter02.html": "076070b5"
+  },
+  "course/installation.ipynb": {
+    "installation.html": "8c10ed71"
+  },
+  "course/index.qmd": {
+    "index.html": "e950f324"
+  }
+}
