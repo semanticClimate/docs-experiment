@@ -2,6 +2,7 @@ lang: en
 license: "CC BY"
 project:
   type: book
+  output-dir: docs
   preview:
     port: 7206
     browser: false
