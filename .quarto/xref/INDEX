@@ -19,5 +19,8 @@
   },
   "course/index.qmd": {
     "index.html": "e950f324"
+  },
+  "course/anotherfile.ipynb": {
+    "anotherfile.html": "f69b4566"
   }
 }

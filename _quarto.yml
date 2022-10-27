@@ -21,6 +21,7 @@ book:
     - part: course/index.qmd
       chapters:
         - course/installation.ipynb
+        - course/anotherfile.ipynb
     - references.qmd
 
 bibliography: references.bib
